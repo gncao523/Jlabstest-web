@@ -4,7 +4,6 @@ import { fetchGeoByIP, isValidIP } from '../api/geo'
 import { useGeoHistory } from '../hooks/useGeoHistory'
 import GeoMap from '../components/GeoMap'
 import './Home.css'
-import './Home.css'
 
 export default function Home() {
   const { user, logout } = useAuth()

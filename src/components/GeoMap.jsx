@@ -55,13 +55,6 @@ export default function GeoMap({ lat, lon, label }) {
   return (
     <div
       ref={mapRef}
-      style={{
-        width: '100%',
-        height: 300,
-        borderRadius: 12,
-        overflow: 'hidden',
-        border: '1px solid #334155',
-      }}
       className="geo-map"
     />
   )

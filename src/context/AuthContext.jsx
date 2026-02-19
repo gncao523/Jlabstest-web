@@ -36,14 +36,9 @@ export function AuthProvider({ children }) {
 
   if (loading) {
     return (
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        minHeight: '100vh',
-        background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 100%)',
-      }}>
-        <span style={{ color: '#94a3b8', fontSize: '1.2rem' }}>Loading...</span>
+      <div className="auth-loading">
+        <div className="auth-loading-spinner" />
+        <span className="auth-loading-text">Loading...</span>
       </div>
     )
   }
